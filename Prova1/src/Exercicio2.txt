@@ -1,0 +1,1 @@
+Utilizamos o new para, criar uma nova instância de uma classe.
