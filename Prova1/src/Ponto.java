@@ -1,25 +1,25 @@
 public class Ponto {
 
-    private int x;
-    private int y;
+    private double x;
+    private double y;
 
-    public int getX() {
+    public double getX() {
         return x;
     }
 
-    public void setX(int x) {
+    public void setX(double x) {
         this.x = x;
     }
 
-    public int getY() {
+    public double getY() {
         return y;
     }
 
-    public void setY(int y) {
+    public void setY(double y) {
         this.y = y;
     }
 
-    public Ponto(int a, int b){
+    public Ponto(double a, double b){
         this.x = a;
         this.y = b;
     }
