@@ -25,7 +25,7 @@ public class MountainBike extends Bike implements Qualidade{
     public boolean ehMelhor(Qualidade obj) {
         if(Objects.equals(((MountainBike) obj).tipoSuspensao, "Óleo") && !Objects.equals(this.tipoSuspensao, "Óleo")){
             return true;
-        }else if(Objects.equals(((MountainBike) obj).tipoSuspensao, "Ar") && !Objects.equals(this.tipoSuspensao, "Molas")){
+        }else if(Objects.equals(((MountainBike) obj).tipoSuspensao, "Ar") && Objects.equals(this.tipoSuspensao, "Molas")){
             return true;
         }
         return false;
