@@ -1,0 +1,4 @@
+Uma checked exception são exceptions já esperadas a ocorrer, ou são "previstas". E portanto, devem ser tratadas previamente pelo programador.
+Já as unchecked execeptions são como o proprio nome diz, "não-previstas", ou seja, que não são esperadas. Elas ocorrer em tempo de execução, logo não devem ser
+tratadas pelo programador, e sim evitadas.
+

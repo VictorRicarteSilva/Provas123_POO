@@ -1,0 +1,2 @@
+O erro ocorre na linha 47, pois a interface Qualidade, não tem acesso
+aos atributos e metodos de MountainBike, logo não pode ser feito um "getTipoSuspensao();"
